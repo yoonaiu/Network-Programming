@@ -22,7 +22,7 @@ Command in Terminal:
 4. (after running up the server on the corresponding port, you can) test the "client" with test script with: ```./test2.sh```, this test script will automatically run up the client and show its performance of sending rate
 
 
-Command in Server <\port>:
+Command in Server <port>:
 1. ```/reset```: reset the byte count of <\port+1> and server will respond how many bytes have been received from all data sink connections to the <\port+1>
 2. ```/ping```: ping the server, server will respond server's liveness
 3. ```/report```: get current counter value in the server, with megabits-per-second format
