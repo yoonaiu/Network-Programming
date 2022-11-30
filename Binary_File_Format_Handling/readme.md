@@ -8,4 +8,4 @@
 
 # Usage
 Command in Terminal:
-```./unpacker <.pak file name> <\route_for_unpack_files>```
+```./unpacker <.pak file name> <route_for_unpack_files>```
