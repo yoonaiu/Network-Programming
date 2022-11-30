@@ -5,10 +5,10 @@
 This lab including a server and a client.
 
 Server:
-1. Run at designated <\port> and <\port+1>
-2. <\port> receiveing command msg
-3. <\port+1> receiving any text, like a sink
-4. The server will count the byte number receiving from the <\port+1> and response the corressponding inquiry/operation msg send to the <\port>
+1. Run at designated <port> and <port+1>
+2. <port> receiveing command msg
+3. <port+1> receiving any text, like a sink
+4. The server will count the byte number receiving from the <port+1> and response the corressponding inquiry/operation msg send to the <port>
 
 Client:
 1. Send data to the server and achieve above 85% sending rate even with harsh delay demanding by the test2.sh
@@ -23,7 +23,7 @@ Command in Terminal:
 
 
 Command in Server <port>:
-1. ```/reset```: reset the byte count of <\port+1> and server will respond how many bytes have been received from all data sink connections to the <\port+1>
+1. ```/reset```: reset the byte count of <\port+1> and server will respond how many bytes have been received from all data sink connections to the <port+1>
 2. ```/ping```: ping the server, server will respond server's liveness
 3. ```/report```: get current counter value in the server, with megabits-per-second format
-4. ```/clients```: reports how many data sink connections to server's <\port+1> is currently saved by the server
+4. ```/clients```: reports how many data sink connections to server's <port+1> is currently saved by the server
