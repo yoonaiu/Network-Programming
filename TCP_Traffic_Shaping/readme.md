@@ -23,7 +23,7 @@ Command in Terminal:
 
 
 Command in Server <port>:
-1. ```/reset```: reset the byte count of <\port+1> and server will respond how many bytes have been received from all data sink connections to the <port+1>
+1. ```/reset```: reset the byte count of <port+1> and server will respond how many bytes have been received from all data sink connections to the <port+1>
 2. ```/ping```: ping the server, server will respond server's liveness
 3. ```/report```: get current counter value in the server, with megabits-per-second format
 4. ```/clients```: reports how many data sink connections to server's <port+1> is currently saved by the server
